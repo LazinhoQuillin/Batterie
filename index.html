@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="background">
+
+        <div id="message">
+          </div>
+      <div id="page">
+          
+        <div id="texte">
+            <div>
+                <h1>
+                  DRUM <br> MACHINE
+                </h1>
+              </div>
+          <div>
+            <p>
+              <strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit beatae laboriosam sapiente sit, itaque ut vel voluptate omnis voluptates repudiandae!
+            </strong></p>
+          </div>
+          <div>
+            <strong><a href="http://127.0.0.1:5500/participer.html#">Participer à la prochaine session </a></strong>
+          </div>
+          <hr  size="5" id="trait" > 
+        </div>
+          <div class="drumkit">
+          <img src="images/drumkit.svg" />
+          <a href="#" class="button button-crash" onclick="playSound(crash)"> A </a>
+          <a href="#" class="button button-racktom" onclick="playSound(racktom)">Z</a>
+          <a href="#" class="button button-rimshot" onclick="playSound(rimshot)">U</a>
+          <a href="#" class="button button-floortom" onclick="playSound(floortom)">Q</a>
+          <a href="#" class="button button-kick" onclick="playSound(kick)">Space</a>
+          <a href="#" class="button button-stickshot" onclick="playSound(stickshot)">Enter</a>
+          <a href="#" class="button button-hihat" onclick="playSound(hihat)">P</a>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
